@@ -3,6 +3,6 @@ const _ = express.Router();
 
 const featurs = require("./featurs.js");
 
-app.use("/feature", featurs);
+_.use("/feature", featurs);
 
 module.exports = _;
